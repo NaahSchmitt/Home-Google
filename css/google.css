@@ -1,0 +1,19 @@
+body{
+    background-color: pink;
+    margin:0;
+}
+.inicio{
+width: auto;
+background-color: blue;
+height: 55px;
+display:flex;
+justify-content:end;
+}
+
+.cabeçalho3{
+display: flex;
+gap:30px;
+align-items: center;
+padding-right: 2rem;
+}
+
