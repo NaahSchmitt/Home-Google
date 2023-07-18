@@ -1,19 +1,81 @@
 body{
-    background-color: pink;
+    background-color: rgb(252, 252, 252);
     margin:0;
+    padding: 0;
 }
 .inicio{
 width: auto;
-background-color: blue;
+background-color: rgb(248, 248, 252);
 height: 55px;
+border-bottom: 1px solid #aeacac;
 display:flex;
 justify-content:end;
+}
+.perfil{
+    border-radius: 15px;
 }
 
 .cabeçalho3{
 display: flex;
 gap:30px;
+color: #838383;
 align-items: center;
 padding-right: 2rem;
 }
+.body_google{
+    height: 450px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.busca{
+    margin-bottom: 5px;
+    
+
+}
+.input{
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #3e3c3c;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    margin:5px;
+}
+@media(max-width:989px)and (min-width:639px){
+    .input{
+     width:260px;
+     height: 25px;
+    }
+}
+@media (max-width: 640px) and (min-width:200px) {
+    .input{
+     width:240px;
+     height: 25px;
+    }
+}
+
+.Botoes{
+    padding:10px;
+   
+}
+.end{
+    color: rgb(71, 72, 71);  
+}
+
+.rodape{
+    display:flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+
+
+
+
+
+
+
 
